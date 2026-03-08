@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <head>
+        <title>IFSC Programação IV</title>
+    <link rel="stylesheet" href="https://www.modulo4.migueldebarba.com.br/thiago/style.css" type="text/css" />
+</head>
+
+    <div class="container">
+        <h1><a class="voltar" href="index.php"> Voltar </a></h1>
+    </div>
+
+    <div class="container">
+        <h2>Site Thiago</h2>
+        <h1>Insert Leitura</h1>
+    </div>
+
+    <div class="container">
+        <form method="post" action="insertleitura.php">
+            <input type="text" name="idmac" placeholder="Endereço MAC"> <br>
+            <input type="date" name="dataleitura" placeholder="Data Leitura: "> <br>
+            <input type="time" name="horaleitura" placeholder="Hora Leitura: "> <br>
+            <input type="text" name="umidade" placeholder="Umidade: "> <br>
+            <input type="text" name="temperatura" placeholder="Temperatura: "> <br>
+            <input type="hidden" name="from" value="html: "> <br>
+            <input type="submit" name="enviarleitura" value="Enviar"> <br>
+        </form>
+    </div>
+ 
+    <div class="container">
+        <footer>
+            &copy; 2025 Banco de Dados. Todos os direitos reservados a Thiago Polesello
+        </footer>
+    </div>
+</html>

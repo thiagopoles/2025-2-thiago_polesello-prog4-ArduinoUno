@@ -1,0 +1,128 @@
+table {
+  width:100%;
+      border-collapse: collapse; /* Combina as bordas */
+      margin-bottom: 20px; /* EspaÃ§amento abaixo da tabela */
+  
+  }
+  th, td {
+      border: 1px solid #000000; /* Borda para cÃ©lulas */
+      padding: 6px; /* EspaÃ§amento interno nas cÃ©lulas */
+      text-align: center; /* Alinhamento do texto */
+    }
+    th {
+      background-color: rgb(214, 154, 206); /* Cor de fundo para cabeÃ§alho */
+    }
+    tr:nth-child(even) {
+      background-color: #ffffff; /* Cores alternadas para linhas */
+    }
+    tr:hover {
+      background-color: #ddd; /* Cor ao passar o mouse */
+    }
+        
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: pink;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-decoration: none;
+}
+
+li:hover{
+  background-color: rgb(91, 85, 85);
+  transition: 0.3s;
+}
+
+.voltar{
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-decoration: none;
+}
+
+.voltar:hover{
+  color: lightgray;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+/* NAV-BAR */
+
+.navbar {
+  background-color: #4CAF50; /* Medium Blue for Navbar */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.navbar-brand {
+  color: #ffffff; /* White for brand text */
+}
+
+.navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.main-content {
+  flex-grow: 1; /* Permite que o conteÃºdo principal ocupe o espaÃ§o restante */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o card */
+  justify-content: center; /* Centraliza horizontalmente o card */
+  padding: 20px; /* Adiciona um padding para telas menores */
+}
+
+.card {
+  background-color: #FFDEAD; /* Card background blue */
+  border: none;
+  color: #000000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+  max-width: 500px; /* Limita a largura mÃ¡xima do card */
+  width: 100%; /* Garante que o card ocupe a largura disponÃ­vel */
+}
+
+.card-header {
+  background-color: #1F3B5D; /* Card header dark blue */
+  border-bottom: none;
+  color: #000000;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+.list-group-item {
+  background-color: #F5DEB3; /* List item background blue */
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #000000;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.list-group-item:hover {
+  background-color: #F5DEB3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Efeito sutil de levantar */
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.list-group-item a {
+  color: inherit; /* Herda a cor do texto do pai */
+  text-decoration: none; /* Remove sublinhado dos links */
+  display: block; /* Faz o link ocupar todo o espaÃ§o do item */
+  padding: 0.75rem 1.25rem; /* Padding para o link dentro do item */
+}
+
+.list-group-item i {
+  margin-right: 10px;
+}
