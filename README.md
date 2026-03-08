@@ -1,4 +1,4 @@
-Projeto ## Arduino Uno – Programação 4
+## Projeto Arduino Uno – Programação 4
 
 Este repositório contém um projeto desenvolvido durante a disciplina de Programação 4, orientada pelo professor Miguel Debarba, ao longo da primeira metade do 4º semestre do curso.
 
